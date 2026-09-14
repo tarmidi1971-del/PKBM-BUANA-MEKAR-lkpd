@@ -1,0 +1,8 @@
+{
+  "name": "Copy of LKPD Homeschooling Buana Mekar",
+  "description": "Modul dan Lembar Kerja Peserta Didik (LKPD) Homeschooling Terpadu lengkap untuk Paket B (Kelas 7-9) dan Paket C (Kelas 10-12) PKBM Buana Mekar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

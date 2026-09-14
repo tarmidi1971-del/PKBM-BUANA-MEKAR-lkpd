@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-family: serif !important;
+  }
+
+  header, nav, .no-print, button, .sticky {
+    display: none !important;
+  }
+
+  .print-document {
+    display: block !important;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 1.5cm 1.2cm 1.5cm 1.2cm;
+  }
+}
